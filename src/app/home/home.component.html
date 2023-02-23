@@ -1,0 +1,158 @@
+<div>
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        
+        <a class="navbar-brand mb-0 h1" href="#">
+            <img src="../../assets/home icon.svg.svg" width="30" height="30" alt="icon">
+
+            Prestige Properties
+
+
+        </a>
+        <a class="menu" aria-current="page" href="#" style="text-decoration: none;">HOME</a>
+        <a class="menu" (click)="toABOUT()" routerLink="/about" routerLinkActive="active" style="text-decoration: none; margin-left:0px">ABOUT</a>
+        <a class="menu" (click)="toCONTACT()" routerLink="/contact" routerLinkActive="active" style="text-decoration: none; margin-left:10px">CONTACT</a>
+        
+        <a class="menu" (click)="toTESTIMONIALS()" routerLink="/testimonials" routerLinkActive="active" style="text-decoration: none; margin-left:10px">TESTIMONIALS</a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">EXPLORE</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/propertis">Houses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/plots">Land/Plots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/apartment">Apartments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Ongoing Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/login">Log Out</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="home-page">
+    <h1 class="content">"The Place You Call Home.."</h1>
+</div>
+
+
+
+<div>
+    <div class="wrapper">
+        <div class="row">
+            <div class="image-section">
+                <img src="../../assets/images/re 4.jpg">
+            </div>
+            <div class="content2">
+                <section id="about"><h1 style="font-size: 70px; letter-spacing: 3.5px; margin-top: 25px; color: black;">ABOUT US</h1></section>
+                <p>The Prestige Properties market is considered to be one of the most stable and continuously
+                    growing
+                    markets in India. The advent of the IT sector, giving rise to SEZ and the IT corridor has
+                    catapulted
+                    the interest in Real Estate.
+                    Prestige Properties is one of the best property websites in Chennai, help to connect buyers and
+                    sellers of properties in Chennai. We provide you an innovative interface to buy, rent and sell
+                    Commercial and Residential property in Chennai easily. As it is the only Chennai real estate
+                    website
+                    providing service exclusively for Chennai, get listed in our property site and make your
+                    property
+                    search faster and sharper!. Find verified residential properties for sale in Chennai on
+                    prestigeproperties.in
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+   
+    
+</div>
+
+
+<div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+
+    <!--contact section start-->
+
+    <div class="wrapper2">
+        
+        <div class="contact-info">
+           
+            <section id="contact"><h1 style="justify-content: center; align-items:baseline; padding:20px ">CONTACT US</h1></section>
+            <div><mat-icon>room</mat-icon>65/A,Kaveti Layout, Sowripalayam, Medavakkam, Chennai -641025</div>
+            <div><mat-icon> mail_outline</mat-icon>prestigeprops@email.com</div>
+            <div><mat-icon> call</mat-icon>+91 934 528 9748</div>
+            <div><mat-icon>alarm</mat-icon>Mon - Fri 8:00 AM to 5:00 PM</div>
+
+        </div>
+        
+
+    </div>
+   
+        
+</div>
+
+<div class="testimonials">
+    <section id="testimonials"><h1 style="justify-content: center; align-items:baseline; padding:20px ">TESTIMONIALS</h1></section>
+    
+    <h3 style="font-style: italic;">What our clients say about prestigeproperties.in</h3>
+    <div class="testimonial">
+      <p class="quote">prestigeproperties.in is one of the best advertising property portals for buying, selling and renting properties in chennai. It has received resounding success and is now riding the high tide in the property business.
+        Your website was very supportive to sell my property in chennai. Thanks you so much!</p>
+      <p class="author">- John Doe</p>
+    </div>
+    <div class="testimonial">
+      <p class="quote">I am really impressed with Chennai Properties because of their innovative and entertaining attempt at real estate market in chennai. Continue your Great work! The quality of service and timely responses are very good.
+         The staffs are very professional, respectful and friendly.</p>
+      <p class="author">- Santhosh</p>
+    </div>
+    <div class="testimonial">
+      <p class="quote">It is a pleasure interacting with professional firm. They are very receptive in terms of producing the quality output what we needed.
+         I would highly recommend them for listing properties as their focus would be more since the real estate portal is only for Chennai.</p>
+      <p class="author">- Jeni</p>
+    </div>
+    <div class="testimonial">
+        <p class="quote">IBI Media launches property portal with clean interface and real properties compared to other real estate websites in chennai.
+            I would like people to know that Chennaiproperties.in is one of the best properties portal in chennai and we recommend to anyone without any hesitation as they are in online business for a quite long period of time.</p>
+        <p class="author">- Akhil</p>
+      </div>
+      <div class="testimonial">
+        <p class="quote">I had posted a property for sale in all conventional means like prints media etc and did not get any response.
+            Then I used Magicbricks and in 10 days my property was sold!</p>
+        <p class="author">- Maha</p>
+      </div>
+</div>
+</div>

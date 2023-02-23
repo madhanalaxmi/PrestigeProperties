@@ -1,0 +1,122 @@
+.home-page {
+  background-image: url('../../assets/images/re3.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .navbar-brand img {
+  filter: invert(100%);
+}
+
+.content {
+  font-style: italic;
+}
+
+.nav a {
+  display: inline;
+  text-decoration: none;
+  color: rgb(235, 230, 230);
+
+}
+
+.nav i {
+  padding-right: 10px;
+  float: right;
+  position: absolute;
+
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.fas {
+  float: right;
+}
+
+.right {
+  float: right;
+
+}
+
+.menu:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+.row {
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.image-section {
+  width: 30%;
+  float: left;
+
+}
+
+.image-section img {
+  width: 100%;
+  height: 600px;
+
+}
+
+
+.content2 {
+  float: left;
+  width: 60%;
+  margin-left: 50px;
+}
+
+.content2 p {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 100px;
+  line-height: 1.5;
+
+}
+
+.wrapper2 {
+  background-image: url('../../assets/images/contact bg 2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.quote {
+  font-style: italic;
+  margin: 0;
+}
+
+.author {
+  font-weight: bold;
+  margin: 0;
+}
